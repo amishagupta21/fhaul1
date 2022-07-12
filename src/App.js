@@ -9,6 +9,7 @@ import Footer from './components/Footer'
 import { Route, Switch } from 'react-router-dom'
 import Login from './components/Login'
 import Register from './components/Register'
+import Dashboard from './components/Dashboard'
 
 function App() {
   return (
@@ -21,6 +22,7 @@ function App() {
         <Route exact path='/contact' component={Contact} />
         <Route exact path='/login' component={Login} />
         <Route exact path='/register' component={Register} />
+        <Route exact path='/dashboard' component={Dashboard} />
       </Switch>
 
       <Footer />

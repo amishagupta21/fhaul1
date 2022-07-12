@@ -62,6 +62,7 @@ const Footer = () => {
             </div>
             <div className='d-flex justify-content-between pt-4 mt-4 border-top'>
               <p>FHAUL--Hire Verified And Licensed Packers And Movers</p>
+              <p>Designed by @softcoplus2022</p>
               <div className='list-unstyled d-flex'>
                 <li className='ms-3'>
                   <a className='link-light' to='#'>
